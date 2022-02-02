@@ -1,0 +1,10 @@
+.myheader {
+  color: teal;
+}
+
+h3 {
+  color: purple;
+}
+h3:hover {
+  color: red;
+}
