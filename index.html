@@ -5,31 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Static Template</title>
+    <style>
+      .mainMenu {
+        width: 100%;
+        background-color: green;
+        
+      }
+      .mainText {
+        color: white;
+      }
+    .subMenu {
+      width:20%;
+      
+      background-color: rgb(151, 151, 241);
+    }
+    </style>
   </head>
   <body>
     <h1>
       This is a static template, there is no bundler or bundling involved!
     </h1>
     <header>
-      <div><a href="/index.html">Home</a><br /></div>
-      <div><a href="/session-01/index.html">Session-01</a><br /></div>
-      <div>
-        <a href="/session-02/index.html">Session-02</a>
-        <ul>
-          <li><a href="/session-02/activity-02.html">Activity-02</a><br /></li>
-          <li><a href="/session-02/activity-03.html">Activity-03</a><br /></li>
-          <li><a href="/session-02/activity-04.html">Activity-04</a><br /></li>
-        </ul>
+      <div class="mainMenu">
+        <a class="mainText" href="/index.html">Home</a><br />
       </div>
+      <p class="subMenu"><b> Session - 01</b></p>
       <div>
-        <a href="session-03/index.html">session-03</a>
+        <ol>
+          <li>
+            <a href="/session-01/index.html">Session Activity</a>
+          </li>
+        </ol>
+      </div>
+      <p class="subMenu"><b> Session - 02 </b></p>
+      <div>
+        <ol>
+          <li>
+            <a href="/session-02/index.html">Session-02 Home</a>
+            <li>
+                <a href="/session-02/activity-02.html">Activity-02</a>
+            </li>
+            <li>
+                <a href="/session-02/activity-03.html">Activity-03</a>
+            </li>
+            <li>
+                <a href="/session-02/activity-04.html">Activity-04</a>
+            </li>
+          </li>
+        </ol>
+       </div>
+      <div>
+        <p class="subMenu"><b>Session - 03</b></p>
         <ul>
           <li>
+              <a href="session-03/index.html">session-03</a>
+            </li>
+            <li>
             <a href="session-03/starter.html">Starter</a>
           </li>
         </ul>
       </div>
-      <p>Session-04</p>
+      <p class="subMenu"><b> Session-04 </b></p>
       <div>
         <ol>
           <li>
@@ -43,6 +79,26 @@
           </li>
           <li>
             <a href="/session-04/div-span.html">Activity-DIV-SPAN</a>
+          </li>
+        </ol>
+      </div>
+      <p class="subMenu"><b>Session-05</b></p>
+      <div>
+        <ol>
+          <li>
+            <a href="/session-05/desendent.html">Desendent - Activity</a>
+          </li>
+          <li>
+            <a href="/session-05/inherit.html">Activity Inherit</a>
+          </li>
+          <li>
+            <a href="/session-05/margin.html">Activity Margin</a>
+          </li>
+          <li>
+            <a href="/session-05/padding.html">Activity Padding</a>
+          </li>
+          <li>
+            <a href="/session-05/padding.html">Activity Padding</a>
           </li>
         </ol>
       </div>
